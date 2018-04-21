@@ -10,20 +10,6 @@ consumer_key = "Zs502adIEZFLBa6sY02VqZDpu"
 consumer_secret = "7IpAqNi4cWnYCibcOPXiYMyIecEmo0R59mYJGPwGw0QmBr6tt4"
 
 
-
-# import twitter
-# api = twitter.Api(consumer_key=consumer_key,
-#                   consumer_secret=consumer_secret,
-#                   access_token_key=access_token,
-#                   access_token_secret=access_token_secret)
-
-# # print(api)
-# print (api.VerifyCredentials())
-
-# # # print(results)
-# # users = api.GetFriends()
-# # print ([u.name for u in users])
-
 class listener(StreamListener):
 	def on_data(self, data):
 		print (data)
